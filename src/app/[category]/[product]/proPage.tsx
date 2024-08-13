@@ -25,10 +25,6 @@ const ProPage = ({ params }: { params: { product: string } }) => {
     color: product[0].color[0],
   })
 
-  if (product.length === 0) {
-    return <NotFound />;
-  }
-
   return (
     <div>
       <div className="container px-5 py-24 mx-auto">
