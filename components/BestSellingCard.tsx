@@ -26,7 +26,7 @@ const BestSellingCard = ({
   discount: number;
 }) => {
   return (
-    <div className="max-w w-[350px]  selection: h-[35rem] p-4 mx-auto shadow-md rounded-xl relative group">
+    <div className="max-w w-[350px] selection: h-[35rem] p-4 mx-auto shadow-md rounded-xl relative group">
       <Link href={`/${category}/${product}`}>
       {/* image div */}
       <div className="block  h-[23rem] rounded overflow-hidden">
@@ -58,7 +58,7 @@ const BestSellingCard = ({
       </div>
       </Link>
       {/* button */}
-      <div >
+      <div>
         <div className="absolute bottom-2 right-2">
           <CardPopOver product={product}/>
         </div>

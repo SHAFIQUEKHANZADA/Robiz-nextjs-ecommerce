@@ -38,8 +38,9 @@
   position: fixed;
   bottom: 30px;
   right: 20px;
-  width: 350px;
+  width: 300px;
   height: 400px;
+  
    
   background-color: white;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -52,7 +53,7 @@
 .header {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 8px;
   background-image: linear-gradient(to right, #1c9144, #4eea75);
   color: white;
 }
@@ -78,7 +79,8 @@
 .footer {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 1px 8px 0px 8px;
+  
  
 }
 

@@ -51,7 +51,7 @@ const WhatsAppChatBox = ({ toggleChatBox }: any) => {
           </svg>
         </button>
       </div>
-      <div className="pb-6">
+      <div className="pb-10">
       <div className="flex gap-2 m-5 mt-6 mb-20">
         <div>
           <Image
@@ -62,8 +62,8 @@ const WhatsAppChatBox = ({ toggleChatBox }: any) => {
             height={40}
           />
         </div>
-        <div className="w-[80%] rounded-xl bg-gray-100 p-2 font-base text-xs flex items-center justify-center text-center">
-          <p className="text-sm font-base">Hello! I&apos;m from Robiz Support team.</p>
+        <div className="w-[80%] rounded-xl bg-gray-100 p-1 font-base text-xs flex items-center justify-center text-center">
+          <p className="text-xs font-base">Hello! I&apos;m from Robiz Support team.</p>
         </div>
       </div>
       </div>
