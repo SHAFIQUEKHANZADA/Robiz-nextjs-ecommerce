@@ -81,6 +81,15 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      // Adding additional responsive screens if needed
+      screens: {
+        xs: '475px',  // Extra small devices
+        sm: '640px',  // Small devices
+        md: '768px',  // Medium devices
+        lg: '1024px', // Large devices
+        xl: '1280px', // Extra large devices
+        "2xl": "1400px", // Custom screen size
+      },
     },
   },
   plugins: [require("daisyui"), require("tailwindcss-animate")],

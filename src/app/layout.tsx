@@ -23,13 +23,13 @@ export default function RootLayout({
       <body className={`${inter.className} bg-myWhite`}>
         <div className="max-w-[90%] mx-auto">
           <Providers>
-        <NavBar/>
-        {children}
-        <Footer/>
-        </Providers>
-        <WhatsAppButton />
+            <NavBar />
+            {children}
+            <Footer />
+          </Providers>
+          <WhatsAppButton />
         </div>
-        </body>
+      </body>
     </html>
   );
 }

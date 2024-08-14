@@ -8,51 +8,7 @@ import BestSellingCard from './BestSellingCard';
 import { useAppSelector } from '@/app/store/hooks';
 
 const FeaturedProduct = () => {
-    //data
-    // const bestSell = [
-    //     {
-    //       src: "/pic/f1.webp",
-    //       alt: "Polo",
-    //       title: "Half Sleeves Cotton Shirt",
-    //       description: "Wash with like colors, wash inside out, low tumble dry.",
-    //       price: 29,
-    //       discount: 10,
-    //       category: "shirts",
-    //       product: "check-shirt",
-    //     },
-    //    {
-    //       src: "/pic/fa5.jpg",
-    //       alt: "watch",
-    //       title: "SV-BULLSTON-3.0-M-8",
-    //       description:
-    //         "Sveston Bullston Is a Gents Stainless-Steel Watch Having 39mm Dial and Comes with Luxury Watch Case.",
-    //       price: 200,
-    //       discount: 32,
-    //       category: "watches",
-    //       product: "sv-bullston",
-    //     },
-    //     {
-    //         src: "/pic/fa2.webp",
-    //         alt: "jeans",
-    //         title: "SLIM-STRAIGHT STRETCH JEANS",
-    //         description: "Tried and true, denim is a classic staple of the vintage aesthetic.",
-    //         price: 46,
-    //         category: "jeans",
-    //         discount: 29,
-    //         product: "blue-jeans",
-    //       },
-    //     {
-    //       src: "/pic/f4.jpg",
-    //       alt: "shoes",
-    //       title: "Men's Dual Colored Lace-ups",
-    //       description:
-    //         "This fit is perfect for pairing with casual t-shirts or with your gym outfit.",
-    //       price: 310,
-    //       category: "shoes-for-men",
-    //       discount: 17,
-    //       product: "sneakers",
-    //     },
-    //   ];
+ 
     const pro = useAppSelector((state) => state.products)
     const bestSell = pro.slice(8, 15)
       //2nd
